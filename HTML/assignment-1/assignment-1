@@ -8,7 +8,7 @@ For example,<h1> </h1> is a HTML element but just <h1> is a starting tag and </h
 
 2. What are tags and attributes in HTML?
 Tags are the primary component of the HTML that defines how the content will be structured/ formatted, whereas Attributes are used along with the HTML tags to define the characteristics of the element. 
-example, <p align=” center”> Maurya saloni </p>, in this the ‘align’ is the attribute using which we will align the paragraph to show in the center of the view.
+example, <p align=” center”> Ankit </p>, in this the ‘align’ is the attribute using which we will align the paragraph to show in the center of the view.
 
 
 3. What are void elements in HTML?
