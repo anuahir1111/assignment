@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table,
+        td,
+        tr,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table{
+            width: 1000px;
+            height:1000px;
+            margin: 0 auto;
+        }
+    th{
+        height: 60px;
+        background-color: khaki;
+    }
+    tr:nth-child(2n){
+        color: white;
+        background-color: teal;
+    }
+    tr:nth-child(odd){
+     background-color: darkkhaki;   
+    }
+
+    .responsive{
+        overflow: scroll;
+        height: 600px;
+        width: 600px;s
+        margin: 0 auto;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="responsive">
+    <table>
+        <thead>
+            <tr>
+                <th>no</th>
+                <th>name</th>
+                <th>course</th>
+                <th>phone no</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>ankit</td>
+                <td>fd</td>
+                <td>9714962794</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>manit</td>
+                <td>fd</td>
+                <td>9714962794</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>heet</td>
+                <td>fd</td>
+                <td>9714962794</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>saloni</td>
+                <td>fd</td>
+                <td>9714962794</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>drshti</td>
+                <td>fd</td>
+                <td>9714962794</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+    
+</body>
+</html>
